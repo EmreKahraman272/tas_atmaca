@@ -15,24 +15,24 @@ while deneme > 0:
     if (0 <(abs(a-y))<= 10):
         puan = puan + 4
         deneme = deneme - 1
-        print("hakkınız:",deneme)
-        print("İsabet noktası: ",abs(a - y))
+        print("Kalan atış hakkınız:",deneme)
+        print("Nişangah merkezine olan uzaklığınız: ",abs(a - y))
         print("Puanınız:",puan)
     elif (10 <(abs(a-y))<= 20):
         puan = puan + 3
         deneme = deneme - 1
-        print("hakkınız:", deneme)
-        print("İsabet noktası: ", abs(a - y))
+        print("Kalan atış hakkınız:", deneme)
+        print("Nişangah merkezine olan uzaklığınız: ", abs(a - y))
         print("Puanınız:", puan)
     elif (20 <(abs(a-y))<= 30):
         puan = puan + 2
         deneme = deneme - 1
-        print("hakkınız:", deneme)
-        print("İsabet noktası: ", abs(a - y))
+        print("Kalan atış hakkınız:", deneme)
+        print("Nişangah merkezine olan uzaklığınız: ", abs(a - y))
         print("Puanınız:", puan)
-    elif (30 <(abs(a-y))):
+    else:
         puan = puan + 1
         deneme = deneme - 1
-        print("hakkınız:", deneme)
-        print("İsabet noktası: ", abs(a - y))
+        print("Kalan atış hakkınız:", deneme)
+        print("Nişangah merkezine olan uzaklığınız: ", abs(a - y))
         print("Puanınız:", puan)
